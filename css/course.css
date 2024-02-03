@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+
+}
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+header .logo{
+	position: relative;
+	max-width: 80px;
+}
+
+header ul{
+	position: relative;
+	display: flex;
+}
+header ul li{
+	list-style: none;
+}
+header ul li a{
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration: none;
+}
+
+.content{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content .textBox{
+	position: relative;
+	max-width: 600px;
+}
+.content .textBox h2 {
+	color: white;
+	font-size: 2.5em;
+	line-height: 1.4em;
+	font-weight: 500;
+	justify-content: center;
+}
+.content .textBox h1 span{
+	color: maroon;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+.content .textBox p{
+	color: white;
+}
+
+.content .textBox a{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 20px;
+	background: maroon;
+	color: white;
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.content .imgBox{
+	width: 800px;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -10px;
+	margin-left: 500px;
+}
+.content .imgBox img{
+	max-width: 400px;
+
+}
+
+
+.circle{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: darkblue;
+	clip-path: circle(650px at left 750px)
+}
+	
+.circle1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: maroon;
+	clip-path: circle(550px at right 300px)
+}
+	
+	
+
+.div1{
+	background:white;
+	margin-left: 100px;
+	border-top: maroon solid 3px;
+	border-bottom: maroon solid 3px;
+	border-right: maroon solid 3px;
+	border-left: maroon solid 3px;
+	border-radius: 20PX;
+	margin-right: 655px;
+	margin-top: 100px
+}
+.div1 h1 span{
+	color: Maroon;
+	font-size: 1.2em;
+	font-weight: 900;
+
+}
+.div1 h1{
+	font-size: 2.5em;
+	line-height: 1.4em;
+	font-weight: 500;
+	margin-left: 50px
+	
+}
+.div1 img{
+	height: 300px;
+	width: 300px;
+	margin-left: 320px;
+	margin-top: -400px;
+	margin-right: 70px
+}

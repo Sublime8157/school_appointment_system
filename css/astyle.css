@@ -1,0 +1,29 @@
+* {
+    transition: 0.5s;
+}
+
+body {
+    margin: 5% 15% 0 15%;
+}
+span {
+    color:  red;
+}
+h1 {
+   font-size: 55px;
+    color: blue;
+    padding: 12px;
+}
+.containerss {
+    text-align: center;
+}
+.left {
+    width: 380px;
+    float:left;
+    padding: 15px;
+    padding: 25px;
+}
+.right {
+    padding: 25px;
+    width: 380px;
+    float: right;
+}

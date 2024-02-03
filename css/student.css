@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    transition: 0.2s;
+}
+.header {
+    border: 1px solid #e7d9d9;
+    background-color: white;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.header p {
+  text-align: center;
+}
+    .status {
+    margin: none;
+    padding: none;
+  }
+  .requesting {
+    background-color: yellow;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    width: auto;
+    text-align: center;
+    border-radius: 25px;
+  }
+  .approved {
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    width: auto;
+    text-align: center;
+  }
+  .done {
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    width: auto;
+    text-align: center;
+  }
+  .denied {
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    width: auto;
+    text-align: center;
+  }   
+ 
+  input {
+    width: 250px;
+  }
+ 
+  .image {
+     padding-bottom: 25px;
+    
+    text-align: center;
+  }
+  hr {
+    text-align: center;
+    width: 200px;
+    margin-left: 25px;
+    color: #fbbebe;
+  }
+  input {
+    border: 1px solid #b7adad;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    height: 35px;
+    }
+
+    input:focus {
+        outline: none;
+    }
+    .container {
+        text-align: center;
+        box-sizing: border-box;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+        border: 1px solid #e9e4e4;
+        padding: 55px;
+        padding-bottom: 0;
+        background-color: white;
+        border-radius: 10px;
+        padding-bottom: 25px;
+    }
+    h3 {
+        padding: 25px;
+        text-align: center;
+    }
+    label {
+        font-weight: bold;
+    }
+    .result {
+        position: absolute;
+        top: 0;
+        margin-top: 10%;
+    }
+    input[type="checkbox"] {
+        width: 10px;
+        height: 10px;
+    }
+    h2 {
+        padding: 25px;
+    }
+   .logout {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 8% 2%;
+    left: 0;
+    
+   }
+   table {
+    border-collapse: collapse;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    max-width: 50px;
+}
+.display-set-appoint {
+  max-width: 50%;
+}
+.display-set-appoint .display {
+ max-width: 50%;
+ margin-left: 105%;
+ margin-top: 5%;
+} 
+
+    th {
+        font-size: 15px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ccc;
+        background-color: #f7f7f7;
+        max-width: 100px;
+    }
+
+    td {
+        font-size: 10px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #ccc;
+        vertical-align: middle;
+        max-width: 100px;
+    }
+
+    td.past-day {
+        color: #ccc;
+    }
+
+    td form {
+        margin: 0;
+        display: inline-block;
+    }
+
+    td select {
+        width: 80%;
+        padding: 2px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 5px;
+        font-size: 10px;
+        max-width: 100px;
+    }
+
+    td button {
+        padding: 2px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 10px;
+        max-width: 100px;
+    }
+    .appointment-bg {
+        color: black;
+    }
+    .display-view-appoint {
+      
+      max-width: 100%;
+    margin-left: 150px;
+  
+    }
+    .display-view-appoint .display table {
+      padding: none;
+      border: none;
+      max-width: 100%;
+      margin: none;
+    }
+    .display-view-appoint .display table th {
+      border: none;
+      font-size: 15px;
+      text-align: center;
+      width: 250px;
+    }
+    .display-view-appoint .display table td {
+      border: none;
+      font-size: 15px;
+      text-align: center;
+      width: 250px;
+    }
+    .display-view-appoint .display table tr {
+      border: none;
+      font-size: 15px;
+      text-align: center;
+      width: 250px;
+    }
+
+    .output {
+      position: absolute;
+      background-color: gray;
+      color: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      
+    }
+    #confirm-btn {
+      background-color: blue;
+      padding: 5px;
+      width: 100px;
+    }
+    #cancel-btn {
+      background-color: red;
+      padding: 5px;
+      width: 100px;
+      margin: 5px;
+    }
+  
+
+    .appear {
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: slide-in 0.5s forwards; /* use the slide-in animation for 1 second */
+  padding:  25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+
+ 
+ 
+  text-align: center;
+  font-size: 10px;
+}
+.display-set-appoint .appear button  {
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.display-set-appoint p {
+  font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+.display-set-appoint .appear button:hover {
+   background-color: #66b766;
+}
+
+.nav-bar-option {
+  display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    text-align: left;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.nav-bar-option button {
+    padding: 5px;
+    border: none;
+    background-color: #5c4242;
+    color: #c7a7a7;
+    cursor: pointer;
+    width: 240px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.nav-bar-option button:hover {
+    background-color: rgb(173, 140, 140);
+    color: white;
+}
+
+.nav-bar-option .bg {
+  background-color: rgb(173, 140, 140);
+  color: white;
+}
+i{
+  margin-right: 3%;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translate(-50%, -100%); /* start position at top of page */
+ }
+  100% {
+    transform: translate(-50%, 50%); /* end position at middle of page */
+  }
+}
+  

@@ -1,0 +1,81 @@
+
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    
+
+    *{
+        
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+        transition: 0.2s;
+    }
+       .appear {
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: slide-in 0.5s forwards; 
+        padding:  25px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        font-size: 10px;
+        z-index: 2;
+      }
+      .display-set-appoint .appear button  {
+          background-color: green;
+          color: white;
+          padding: 2px;
+          border: none;
+          cursor: pointer;
+          transition: 0.5s;
+          
+      }
+      form {
+        position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          padding: 50px;
+          border: 1px solid #cfcfcf;
+          border-radius: 8px;
+          box-shadow: 5px 5px 10px 5px #d1d1e1;
+          z-index: 1;
+      }
+      select {
+        padding: 10px;
+          border: 1px solid #979191;
+          text-align: center;
+          width: 250px;
+          border-radius: 15px;
+          cursor: pointer;
+          transition: 0.5s;
+      }
+      button {
+      
+          margin-top: 5%;
+          padding: 5px 0 5px 0;
+          border-radius: 5px;
+          border: none;
+          background: #c99595;
+          color: white;
+          cursor: pointer;
+          margin-bottom: 5%;
+      }
+      button:hover {
+        opacity: 70%;
+      }
+      select:hover {
+        background-color: #b6b6dd;
+        color: white;
+      }
+
+
+      @keyframes slide-in {
+          0% {
+            transform: translate(-50%, -100%); /* start position at top of page */
+        }
+          100% {
+            transform: translate(-50%, 50%); /* end position at middle of page */
+          }
+        }
